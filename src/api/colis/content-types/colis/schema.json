@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coliss",
+  "info": {
+    "singularName": "colis",
+    "pluralName": "coliss",
+    "displayName": "colis",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "numero_colis": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "expediteur": {
+      "type": "string"
+    },
+    "telephoneExp": {
+      "type": "string"
+    },
+    "telephoneDest": {
+      "type": "string"
+    },
+    "cinExp": {
+      "type": "string"
+    },
+    "cinDest": {
+      "type": "string"
+    },
+    "paye": {
+      "type": "boolean"
+    },
+    "etatColis": {
+      "type": "string"
+    },
+    "destinataire": {
+      "type": "string"
+    },
+    "voyage_details": {
+      "type": "string"
+    },
+    "nom_gp": {
+      "type": "string"
+    },
+    "gp": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gp.gp"
+    },
+    "montant": {
+      "type": "string"
+    }
+  }
+}

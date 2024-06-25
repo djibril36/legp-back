@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "villes",
+  "info": {
+    "singularName": "ville",
+    "pluralName": "villes",
+    "displayName": "ville"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom_ville": {
+      "type": "string",
+      "required": true
+    },
+    "pays": {
+      "type": "string"
+    },
+    "code_postal": {
+      "type": "biginteger"
+    }
+  }
+}

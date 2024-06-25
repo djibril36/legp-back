@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "voyages",
+  "info": {
+    "singularName": "voyage",
+    "pluralName": "voyages",
+    "displayName": "voyage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_voyage": {
+      "type": "string"
+    },
+    "date_voyage": {
+      "type": "date"
+    },
+    "ville_depart": {
+      "type": "string"
+    },
+    "ville_arrivee": {
+      "type": "string"
+    },
+    "kiloDispo": {
+      "type": "integer"
+    },
+    "tarif": {
+      "type": "integer"
+    },
+    "nomGp": {
+      "type": "string"
+    },
+    "semaine": {
+      "type": "integer"
+    },
+    "commentaire": {
+      "type": "text"
+    }
+  }
+}

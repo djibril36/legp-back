@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gps",
+  "info": {
+    "singularName": "gp",
+    "pluralName": "gps",
+    "displayName": "gp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom_gp": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    }
+  }
+}

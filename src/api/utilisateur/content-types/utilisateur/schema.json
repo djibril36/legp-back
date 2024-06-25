@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "utilisateurs",
+  "info": {
+    "singularName": "utilisateur",
+    "pluralName": "utilisateurs",
+    "displayName": "utilisateur",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "prenom": {
+      "type": "text"
+    },
+    "nom_gp": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password",
+      "required": false
+    },
+    "contact": {
+      "type": "string"
+    },
+    "id_utilisateur": {
+      "type": "biginteger",
+      "required": false
+    }
+  }
+}
